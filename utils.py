@@ -30,4 +30,4 @@ def upload_file(data, filename) -> None:
 
 def unique_audio_filename(lesson_id: str) -> str:
     id = uuid4().hex
-    return f"{lesson_id}_{id}.mp3"
+    return f"{lesson_id}_{id}.wav"

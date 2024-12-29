@@ -4,6 +4,9 @@ showSidebarNavigation = false
 [browser]
 gatherUsageStats = false
 
+[server]
+enableStaticServing = true
+
 [theme]
 base = "light"
 primaryColor = "#FF4B4B"
