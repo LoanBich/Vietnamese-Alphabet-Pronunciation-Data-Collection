@@ -55,6 +55,7 @@ def show_question(question):
     question_id = question["id"]
 
     st.subheader(f"{st.session_state['step']}/{len(QUESTIONS)}. {question_title}")
+    st.markdown(f"Hãy chỉ đọc chữ cái được yêu cầu. Ví dụ: **{question_id}**")
     add_vertical_space(1)
 
     audio = audiorecorder(
