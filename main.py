@@ -39,7 +39,9 @@ def show_greeting():
         "Hãy ấn bắt đầu và giúp tớ thu âm các chữ cái, giúp tớ đọc chính xác rõ ràng từng chữ nhaaaa"
     )
     st.markdown("**Lưu ý:**")
-    st.write("Khi ghi âm chữ H, hãy đọc là **HỜ** chứ không đọc là HÁT nha")
+    st.write(
+        "Khi ghi âm chữ H, hãy đọc là **HỜ** chứ không đọc là HÁT nha. Tương tự với chữ V, hãy đọc là **VỜ** chứ không đọc là VÊ nha"
+    )
     left_col, right_col = st.columns(2, border=True)
     left_col.markdown("![guideline](app/static/mic.png)")
     right_col.markdown("![guideline](app/static/audio_recorder.png)")
